@@ -1,0 +1,72 @@
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-left img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.about-right {
+  flex: 1;
+}
+
+.offer {
+  padding: 4rem 2rem;
+  background-color: #fff8f2;
+  text-align: center;
+}
+
+.offerContent img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.offerText h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #b0005b;
+}
+
+.offerText button {
+  background-color: #b0005b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.instagram {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.instaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.instaGrid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
